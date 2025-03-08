@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+.box{
+    display: block;
+}
+.color1{
+    display: block;
+    background-color: rgb(255, 0, 0);
+    border: 1px solid;
+    width: 41%;
+    height: 90%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.color2{
+    display: block;
+    background-color: rgb(14, 14, 180);
+    border: 1px solid;
+    width: 80%;
+    height: 80%;
+    margin: 55px auto;
+    border-radius: 50%;
+}
+.color3{
+    display: block;
+    background-color: rgb(229, 255, 0);
+    border: 1px solid;
+    width: 74%;
+    height: 73%;
+    margin: 60px auto;
+    border-radius: 50%;
+}
+.color4{
+    display: flex;
+    margin: 60px auto;
+    background-color: rgb(13, 105, 13);
+    width: 59%;
+    height: 63%;
+    border-radius: 50%;
+}
+.box::after{
+    content: " ";
+    position: absolute;
+    top: 54%;
+    left: 29.7%;
+    width: 40.6%;
+    height: 3px;
+    background-color: black; /* The dividing line */
+    transform: translateY(-50%);
+}
